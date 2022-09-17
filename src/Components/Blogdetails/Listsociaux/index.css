@@ -1,0 +1,68 @@
+
+.parti-social {
+display: flex;
+flex-direction: column;
+
+}
+
+.parti-social li {
+padding-bottom: 15px;
+    width: 19px;
+    font-size: 26px;
+
+}
+.parti-social h4 {
+    transform: rotate(90deg);
+    font-size: 15px;
+    padding: 28px 6px;
+    margin-left: -15px;
+    font-weight: 600;
+}
+
+.parti-social .icon {
+    color: white;
+    padding: 20px 23px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #c3c4c6;
+    transition: transform .8s ease-in-out;  
+}
+.parti-social .icon:hover {
+transform: rotate(360deg); 
+
+}
+
+.fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+
+.fa-facebook-f {
+    background-color: #3B5998;
+    
+    
+}
+
+.icon-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+   
+    
+}
+.fa-twitter {
+    background-color: #1DA1F2;
+   
+    
+}
+.fa-dribbble {
+    background-color: #e94888;
+   
+    
+}
+.fa-behance {
+    background-color: #053eff;
+   
+    
+}

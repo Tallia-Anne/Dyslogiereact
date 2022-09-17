@@ -1,0 +1,26 @@
+
+section.tags ul {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.tags ul li {
+  background-color: #e7e7e7;
+  margin: 10px 10px 10px 0;
+  padding: 15px;
+}
+
+section.tags ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+section.tags ul li:hover a {
+  color: #fff;
+}
+
+section.tags ul li:hover {
+  background-color: #e57bb7;
+}

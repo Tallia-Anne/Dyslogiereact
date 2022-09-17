@@ -1,0 +1,15 @@
+.card-profile-blog {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+}
+
+.card-profile-blog img {
+padding-top: 12px;
+}
+
+.card-profile-blog p {
+padding: 12px 112px;
+}

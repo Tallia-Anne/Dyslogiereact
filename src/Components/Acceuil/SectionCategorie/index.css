@@ -1,0 +1,49 @@
+#sectionCategorie {
+ display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+#sectionCategorie .box {
+color: white;
+padding: 158px;
+
+}
+
+#sectionCategorie .box:nth-child(1) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+
+
+#sectionCategorie .box:nth-child(2) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#sectionCategorie .box .boxtitle {
+
+    text-align: center;
+        padding: 52px;
+    border: 4px solid #fff;
+
+}
+
+#sectionCategorie .box .boxtitle a {
+
+   text-decoration: none;
+    color: #fff;
+
+}
+@media screen and (max-width: 768px){
+  #sectionCategorie {
+ display: grid;
+grid-template-columns: 1fr ;
+
+}
+}

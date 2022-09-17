@@ -1,0 +1,49 @@
+
+
+.featured-blog {
+        padding: 100px 0;
+        width: 100%;
+
+}
+
+.container-blog {
+        max-width: 1300px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+
+}
+.container-blog .title-blog {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Gilda Display', serif;
+
+}
+
+.container-blog .featured-text {
+
+        max-width: 800px;
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFD6E4;
+        font-style: italic;
+        text-transform: uppercase;
+
+}
+
+.cards-blog {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+}
+
+@media screen and (max-width: 380px){
+  .container-blog{
+    padding: 0 5px;
+  }
+}

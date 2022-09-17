@@ -1,0 +1,41 @@
+
+#showcase-img {
+min-height: 550px;
+color: #fff;
+text-align: center;
+font-family: 'Gilda Display', serif;
+}
+ #showcase-img .content-img {
+
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+
+
+}
+
+#showcase-img .content-img {
+        padding-top: 244px;
+        padding-bottom: 0;
+
+}
+.text-img {
+  margin: auto;
+    width: 56%;
+    height: 173px;
+    padding: 31px;
+    background-color: #ffffffb3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-img h4, p {
+  text-align: center;
+  color: black;
+}

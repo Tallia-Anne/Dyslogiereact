@@ -1,0 +1,8 @@
+.box-blog {
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
+    padding: 76px;
+
+}

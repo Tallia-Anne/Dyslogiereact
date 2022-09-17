@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-content {
+margin-top: 10rem!important;
+display: grid;
+grid-template-columns: 1fr 9fr;
+grid-gap: 20px;
+}
+
+.text-pun{
+padding-bottom: 12px;
+}
+.text-pdeux{
+padding-top: 32px;
+}
+.post-content {
+margin-top: 10rem!important;
+display: grid;
+grid-template-columns: 1fr 9fr;
+grid-gap: 20px;
+}

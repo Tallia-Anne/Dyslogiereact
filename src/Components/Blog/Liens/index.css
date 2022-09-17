@@ -1,0 +1,38 @@
+.title {
+background-color: #e57bb7;
+    padding: 12px;
+    text-transform: uppercase;
+   
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.categorie {
+width: 301px;
+margin: 0 54px;
+}
+
+.categorie ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+
+}
+
+.categorie ul li {
+    border-bottom: 1px solid #655e5e;
+    padding: 20px;
+}
+.categorie ul li a{
+   text-decoration: none;
+    color: #000;
+
+}
+
+.categorie ul li a:hover{
+   color: palevioletred;
+
+    
+}
